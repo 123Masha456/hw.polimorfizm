@@ -1,7 +1,5 @@
 public class Car extends Vechicle {
-    public String modelName;
-    public int wheelsCount;
-    public String modelOfEngine;
+    private String modelOfEngine;
 
     public Car(String modelName, int wheelsCount, String modelOfEngine) {
         super(modelName, wheelsCount);

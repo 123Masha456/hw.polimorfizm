@@ -1,6 +1,6 @@
 public abstract class Vechicle {
-    public String modelName;
-    public int wheelsCount;
+    private String modelName;
+    private int wheelsCount;
 
     public Vechicle(String modelName, int wheelsCount) {
         this.modelName = modelName;

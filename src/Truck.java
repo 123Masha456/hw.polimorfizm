@@ -1,8 +1,5 @@
 public class Truck extends Car {
-    public String modelName;
-    public int wheelsCount;
-    public String modelOfEngine;
-    public String modelOfTrailer;
+    private String modelOfTrailer;
 
     public Truck(String modelName, int wheelsCount, String modelOfEngine, String modelOfTrailer) {
         super(modelName, wheelsCount, modelOfEngine);
@@ -15,11 +12,6 @@ public class Truck extends Car {
 
     public void setModelOfTrailer(String modelOfTrailer) {
         this.modelOfTrailer = modelOfTrailer;
-    }
-
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
     }
 
     public void checkTrailer() {
